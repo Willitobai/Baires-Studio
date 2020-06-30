@@ -918,7 +918,7 @@ fieldset {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
-  color: #008700;
+  color: #0393f3;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -943,7 +943,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 * 05.abilities CSS STYLE
 * ----------------------------------------------------------------------------------------
-*/
+/**/
 /* .single-service i {
   font-size: 40px;
   margin-bottom: 10px;
@@ -990,7 +990,7 @@ fieldset {
 }
 
 .work h2 {
-  color: #008700 !important;
+  color: #0393f3 !important;
 }
 
 ul.work {
@@ -1074,7 +1074,7 @@ ul.work li.active {
   display: inline-block;
   color: #fff !important;
   font-weight: bold;
-  text-shadow: 4px 4px 4px green;
+  text-shadow: 4px 4px 4px #0393f3;
 }
 
 .work figure.effect-ruby p {
@@ -1108,7 +1108,7 @@ ul.work li.active {
   -webkit-transition: .3s;
   transition: .3s;
   display: inline-block;
-  color: #008700;
+  color: #0393f3;
   position: relative;
   top: -15px;
   z-index: 100;
@@ -1150,7 +1150,7 @@ ul.work li.active {
 * 07.TESTIMONIAL CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.testimonial-area {
+/* .testimonial-area {
   background: #fff;
 }
 
@@ -1184,12 +1184,12 @@ ul.work li.active {
   background: #000;
 }
 
-
+ */
 
 /* ==============================
      Hero section
      ============================== */
-     .hero-content {
+     /* .hero-content {
       position: absolute;
       top: 0;
       left: 0;
@@ -1212,7 +1212,7 @@ ul.work li.active {
       margin-left: auto;
       margin-right: auto;
     }
-    
+     */
 
     /* ==============================
      Owl carousel
@@ -1773,7 +1773,7 @@ ul.work li.active {
 
 .contact-form button.btn {
   display: inline-block;
-  color: #008700;
+  color: #0393f3;
   background: none;
   padding: 15px 25px;
   border: 1px solid #333;
@@ -1788,7 +1788,7 @@ ul.work li.active {
 }
 
 .contact-form button.btn:hover {
-  background: #008700;
+  background: #0393f3;
   color: #000;
   -webkit-transition: all 0.4s;
   -webkit-transition: all 0.2s;
@@ -1804,7 +1804,7 @@ ul.work li.active {
 }
 
 .input-success {
-  border: 1px solid #01B500;
+  border: 1px solid #0393f3;
 }
 
 .input-error {
@@ -1817,7 +1817,7 @@ ul.work li.active {
 * ----------------------------------------------------------------------------------------
 */
 .footer-area {
-  background: #008700;
+  background: #0393f3;
   padding: 80px 0px;
 }
 
