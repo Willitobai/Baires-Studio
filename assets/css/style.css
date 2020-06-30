@@ -910,7 +910,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 #about {
-  background: #FBFBFB;
+  background: #777;
 }
 
 .about-text h2 {
@@ -990,7 +990,7 @@ fieldset {
 }
 
 .work h2 {
-  color: #0393f3 !important;
+  color: #000!important;
 }
 
 ul.work {
