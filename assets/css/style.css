@@ -220,6 +220,214 @@ fieldset {
 * 03.HOMEPAGE CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
+
+/* */
+* ----------------------------------------------------------------------------------------
+* 05.abilities CSS STYLE
+* ----------------------------------------------------------------------------------------
+/**/
+/* .single-service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: #F5F5F5;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  text-align: center;
+  color: #1C1C1C;
+  line-height: 80px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+.single-service h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #232323;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.single-service p {
+  color: #232323;
+}
+
+#abilities img {
+  width: 50px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 06.portfolio CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+.work {
+  background: #FBFBFB;
+}
+
+.work h2 {
+  color: #000!important;
+}
+
+ul.work {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ul.work li {
+  display: inline-block;
+  padding-bottom: 4px;
+  margin: 0 8px;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  border-bottom: 2px solid transparent;
+}
+
+ul.work li:hover {
+  color: #777;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+ul.work li.active {
+  color: #777;
+}
+
+.work-inner .mix {
+  display: none;
+}
+
+.work .item {
+  height: 120px;
+}
+
+.work .col-md-4 {
+  padding: 0;
+  margin: 0;
+}
+
+.work figure.effect-ruby img {
+  height: auto;
+  width: 100%;
+  height: 230px;
+}
+
+.work .grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.work .grid figure:hover {
+  background: rgba(87, 88, 87, 0.4);
+}
+
+.work figure.effect-ruby h2 {
+  margin-top: 10%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+  color: #fff !important;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #0393f3;
+}
+
+.work figure.effect-ruby p {
+  font-size: 14px;
+  text-transform: capitalize;
+  border: none;
+  padding: 0;
+  margin: 5px 0px;
+}
+
+.work figure.effect-ruby p strong {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.work .item:hover figure.effect-ruby h2 {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.work .item span {
+  margin-right: 5px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+  color: #0393f3;
+  position: relative;
+  top: -15px;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px double #000;
+  position: relative;
+  z-index: 200;
+  padding: 10px;
+}
+
+.work .item:hover > span {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transition: .3s;
+  transition: .3s;
+  display: inline-block;
+  position: relative;
+  top: -90px;
+  color: #777;
+}
+
+.work .item span:hover {
+  border: 1px solid #777;
+  background: #fff;
+}
+
+.work .item span i {
+  color: #fff;
+}
+
+.work .item span:hover i {
+  color: #777;
+} */
+
+
 /* ==============================
      Navbar
      ============================== */
@@ -312,7 +520,7 @@ fieldset {
       position: relative;
     }
     .inner-nav ul li a {
-      color: #777;
+      color: rgb(124, 29, 29);
       letter-spacing: 2px;
       display: inline-block;
       -webkit-box-sizing: border-box;
@@ -910,7 +1118,7 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 #about {
-  background: #777;
+  background: rgb(255, 255, 255);
 }
 
 .about-text h2 {
@@ -939,211 +1147,6 @@ fieldset {
   padding-bottom: 10px;
 }
 
-/* */
-* ----------------------------------------------------------------------------------------
-* 05.abilities CSS STYLE
-* ----------------------------------------------------------------------------------------
-/**/
-/* .single-service i {
-  font-size: 40px;
-  margin-bottom: 10px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  background: #F5F5F5;
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  text-align: center;
-  color: #1C1C1C;
-  line-height: 80px;
-  float: left;
-  margin-right: 25px;
-  margin-bottom: 50px;
-}
-
-.single-service h2 {
-  font-size: 12px;
-  text-transform: uppercase;
-  margin: 20px 0px;
-  -webkit-transition: .3s;
-  transition: .3s;
-  color: #232323;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-
-.single-service p {
-  color: #232323;
-}
-
-#abilities img {
-  width: 50px;
-}
-
-/*
-* ----------------------------------------------------------------------------------------
-* 06.portfolio CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-.work {
-  background: #FBFBFB;
-}
-
-.work h2 {
-  color: #000!important;
-}
-
-ul.work {
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-ul.work li {
-  display: inline-block;
-  padding-bottom: 4px;
-  margin: 0 8px;
-  text-transform: uppercase;
-  font-size: 35px;
-  font-weight: bold;
-  color: #000;
-  border: none;
-  cursor: pointer;
-  font-size: 12px;
-  border-bottom: 2px solid transparent;
-}
-
-ul.work li:hover {
-  color: #777;
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-ul.work li.active {
-  color: #777;
-}
-
-.work-inner .mix {
-  display: none;
-}
-
-.work .item {
-  height: 120px;
-}
-
-.work .col-md-4 {
-  padding: 0;
-  margin: 0;
-}
-
-.work figure.effect-ruby img {
-  height: auto;
-  width: 100%;
-  height: 230px;
-}
-
-.work .grid figure {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
-}
-
-.work .grid figure:hover {
-  background: rgba(87, 88, 87, 0.4);
-}
-
-.work figure.effect-ruby h2 {
-  margin-top: 10%;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: 600;
-  -webkit-transition: .3s;
-  transition: .3s;
-  display: inline-block;
-  color: #fff !important;
-  font-weight: bold;
-  text-shadow: 4px 4px 4px #0393f3;
-}
-
-.work figure.effect-ruby p {
-  font-size: 14px;
-  text-transform: capitalize;
-  border: none;
-  padding: 0;
-  margin: 5px 0px;
-}
-
-.work figure.effect-ruby p strong {
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-right: 5px;
-}
-
-.work .item:hover figure.effect-ruby h2 {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-.work .item span {
-  margin-right: 5px;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  -webkit-transition: .3s;
-  transition: .3s;
-  display: inline-block;
-  color: #0393f3;
-  position: relative;
-  top: -15px;
-  z-index: 100;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px double #000;
-  position: relative;
-  z-index: 200;
-  padding: 10px;
-}
-
-.work .item:hover > span {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -webkit-transition: .3s;
-  transition: .3s;
-  display: inline-block;
-  position: relative;
-  top: -90px;
-  color: #777;
-}
-
-.work .item span:hover {
-  border: 1px solid #777;
-  background: #fff;
-}
-
-.work .item span i {
-  color: #fff;
-}
-
-.work .item span:hover i {
-  color: #777;
-} */
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -1189,7 +1192,7 @@ ul.work li.active {
 /* ==============================
      Hero section
      ============================== */
-     /* .hero-content {
+     .hero-content {
       position: absolute;
       top: 0;
       left: 0;
@@ -1212,7 +1215,7 @@ ul.work li.active {
       margin-left: auto;
       margin-right: auto;
     }
-     */
+    
 
     /* ==============================
      Owl carousel
@@ -2291,7 +2294,7 @@ ul.blog_pagination li a:hover {
 /* ==============================
     Intro page
      ============================== */
-  .intro-box .intro-prev {
+  /* .intro-box .intro-prev {
     margin-bottom: 25px;
   }
   .intro-box .intro-prev a {
@@ -2703,5 +2706,5 @@ ul.blog_pagination li a:hover {
       text-align: center;
       color: rgba(0,0,0,0.2);
       font-size: 48px;
-    }
+    } */
 /*# sourceMappingURL=style.css.map */
