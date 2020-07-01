@@ -120,12 +120,15 @@ fieldset {
 
 
 
+
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 02.PRELOADER & BOUNCE CCS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.preloader {
+/* .preloader {
   display: block;
     background-color: #f0f0f0;
     width: 100%;
@@ -213,7 +216,59 @@ fieldset {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1em;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    color: #777;
+    line-height: 1.7;
+    font-weight: 300;
+  }
+  b {
+    font-weight: 700;
+  }
+  blockquote {
+    padding: 0;
+    border: none;
+    background: none;
+    font-style: normal;
+    line-height: 1.7;
+    color: #777;
+  }
+  blockquote p {
+    margin-bottom: 1em;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+  }
+  blockquote footer {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .alt-font {
+    font-family: 'Dosis', arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid #eeeef7;
+  }
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -222,9 +277,9 @@ fieldset {
 */
 
 /* */
-* ----------------------------------------------------------------------------------------
-* 05.abilities CSS STYLE
-* ----------------------------------------------------------------------------------------
+/* * ---------------------------------------------------------------------------------------- */
+/* * 05.abilities CSS STYLE */
+/* * ---------------------------------------------------------------------------------------- */
 /**/
 /* .single-service i {
   font-size: 40px;
@@ -356,9 +411,8 @@ ul.work li.active {
   display: inline-block;
   color: #fff !important;
   font-weight: bold;
-  text-shadow: 4px 4px 4px #0393f3;
+  text-shadow: 4px 4px 4px rgba(87, 88, 87, 0.4));
 }
-
 .work figure.effect-ruby p {
   font-size: 14px;
   text-transform: capitalize;
@@ -520,7 +574,7 @@ ul.work li.active {
       position: relative;
     }
     .inner-nav ul li a {
-      color: rgb(124, 29, 29);
+      color: rgb(245, 241, 241);
       letter-spacing: 2px;
       display: inline-block;
       -webkit-box-sizing: border-box;
@@ -535,7 +589,7 @@ ul.work li.active {
     }
     .inner-nav ul li a:hover,
     .inner-nav ul li a.active {
-      color: #000;
+      color: rgb(139, 13, 13);
       text-decoration: none;
     }
     .menu-sub {
@@ -1192,7 +1246,7 @@ ul.work li.active {
 /* ==============================
      Hero section
      ============================== */
-     .hero-content {
+     /* .hero-content {
       position: absolute;
       top: 0;
       left: 0;
@@ -1214,7 +1268,7 @@ ul.work li.active {
       display: table;
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
     
 
     /* ==============================
@@ -2234,7 +2288,7 @@ ul.blog_pagination li a:hover {
 * PREVIEW CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.preview-body {
+/* .preview-body {
   background: #fafafa;
 }
 
@@ -2289,7 +2343,7 @@ ul.blog_pagination li a:hover {
 
 .main {
   margin-bottom: 180px;
-}
+} */
 
 /* ==============================
     Intro page
