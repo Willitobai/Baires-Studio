@@ -1,3 +1,14 @@
+
+
+
+html {
+  overflow-y: scroll;
+  -ms-overflow-style: scrollbar;
+}
+html,
+body {
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 body ::-moz-selection {
   background: #000f11;
   color: #fff;
@@ -27,27 +37,138 @@ a:focus {
 ul {
   list-style-type: none;
 }
-
-html {
-  overflow-y: scroll;
-  -ms-overflow-style: scrollbar;
-}
-
-html,
-body {
-  height: 100%;
-}
-
+  /* ==============================
+     Typography
+     ============================== */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1em;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
 }
+p {
+  font-size: 15px;
+  color: #777;
+  line-height: 1.7;
+  font-weight: 300;
+}
+b {
+  font-weight: 700;
+}
+blockquote {
+  padding: 0;
+  border: none;
+  background: none;
+  font-style: normal;
+  line-height: 1.7;
+  color: #777;
+}
+blockquote p {
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6;
+}
+blockquote footer {
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.alt-font {
+  font-family: 'Dosis', arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid #eeeef7;
+}
+/* ==============================
+     Helper clases
+     ============================== */
+     .clearlist,
+     .clearlist li {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       background: none;
+     }
+     img.resp {
+       width: 100%;
+       height: auto;
+       float: left;
+       
+     }
+     .valign-wrapper {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: box;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -o-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .valign-wrapper .valign {
+      display: block;
+    }
+    .relative {
+      position: relative;
+    }
+    .table {
+      display: table;
+    }
+    .table-cell {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .right {
+      float: right;
+    }
+    .left {
+      float: left;
+    }
+    .nopadding {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .info-message {
+      margin: 25px 0 0px;
+    }
+    .success {
+      border-color: #a9e2c2;
+      color: #00b2ca;
+    }
+    .error {
+      border-color: #fbb;
+      color: #110101;
+    }
+    .black {
+      color: #111 !important;
+    }
+    .weight-color {
+      color: #00b2ca !important;
+      font-weight: 500;
+    }
+ /* ==============================
+     Backgrounds and sections
+     ============================== */
 
-a {
+    /* a {
   text-decoration: none;
   -webkit-transition: all 0.4s;
   -webkit-transition: all 0.2s;
@@ -116,7 +237,7 @@ fieldset {
 
 .section-title p {
   font-weight: 300;
-}
+} */
 
 
 
