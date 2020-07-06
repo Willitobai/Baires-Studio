@@ -167,6 +167,32 @@ hr {
  /* ==============================
      Backgrounds and sections
      ============================== */
+     .bg-dark-10,
+     .bg-dark-50,
+     .bg-dark-80,
+     .bg-dark-90,
+     .bg-light-90 {
+    color: #fff;
+  }
+  .bg-dark-10 *,
+  .bg-dark-50 *,
+  .bg-dark-80 *,
+  .bg-dark-90 *,
+  .bg-light-90 * {
+    color: rgb(12, 1, 1);
+  }
+  .bg-dark-10:before,
+  .bg-dark-50:before,
+  .bg-dark-80:before,
+  .bg-dark-90:before,
+  .bg-light-90:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
     /* a {
   text-decoration: none;
