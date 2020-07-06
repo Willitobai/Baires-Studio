@@ -1,6 +1,6 @@
-
-
-
+/* ==============================
+   Global styles
+   ============================== */
 html {
   overflow-y: scroll;
   -ms-overflow-style: scrollbar;
@@ -193,6 +193,28 @@ hr {
     top: 0;
     left: 0;
   }
+  .bg-dark-10:before {
+    background: rgba(0,0,0,0.1);
+  }
+  .bg-dark-50:before {
+    background: rgba(0,0,0,0.5);
+  }
+  .bg-dark-80:before {
+    background: rgba(0,0,0,0.8);
+  }
+  .bg-dark-90:before {
+    background: rgba(0,0,0,0.9);
+  }
+  .bg-light-90:before {
+    background: rgba(255,255,255,0.8);
+  }
+  .bg-light {
+    background: #f0f0f0;
+  }
+  .bg-light-2 {
+    background: #f8f8f8;
+  }
+  
 
     /* a {
   text-decoration: none;
@@ -201,50 +223,40 @@ hr {
   transition: all 0.2s;
   color: #000;
 }
-
 img {
   width: 100%;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 a:focus {
   outline: none;
   text-decoration: none;
 }
-
 p {
   line-height: 32px;
 }
-
 ul,
 li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 fieldset {
   border: 0 none;
   margin: margin 0 auto;
   padding: 0;
 }
-
 .no-padding {
   padding: 0;
 }
-
 .section-padding {
   padding: 70px 0px;
 }
-
 .section-title {
   text-align: center;
   margin-bottom: 60px;
 }
-
 .section-title {
   margin-top: 0;
   font-weight: 900;
@@ -252,7 +264,6 @@ fieldset {
   font-size: 45px;
   color: #0393f3;
 }
-
 .section-title h2 {
   margin-top: 0;
   font-weight: 900;
@@ -260,7 +271,6 @@ fieldset {
   font-size: 45px;
   color: #3c4042;
 }
-
 .section-title p {
   font-weight: 300;
 } */
@@ -286,7 +296,6 @@ fieldset {
     background: #fefefe;
     z-index: 100000;
 }
-
 .loader-text {
   position: absolute;
   top: 50%;
@@ -300,7 +309,6 @@ fieldset {
   letter-spacing: 6px;
   color: #777;
 }
-
 .mfp-preloader {
   width: 50px !important;
   height: 50px !important;
@@ -323,7 +331,6 @@ fieldset {
   animation: spinner 700ms infinite linear;
   z-index: 100001;
 }
-
 .status-mes {
   width: 45px;
   height: 45px;
@@ -342,7 +349,6 @@ fieldset {
   animation: spinner 1000ms infinite linear;
   z-index: 10000;
 }
-
 @-webkit-keyframes spinner {
   0% {
     -webkit-transform: rotate(0deg);
@@ -353,7 +359,6 @@ fieldset {
     transform: rotate(360deg);
   }
 }
-
 @keyframes spinner {
   0% {
     -webkit-transform: rotate(0deg);
@@ -444,7 +449,6 @@ h1,
   margin-right: 25px;
   margin-bottom: 50px;
 }
-
 .single-service h2 {
   font-size: 12px;
   text-transform: uppercase;
@@ -455,15 +459,12 @@ h1,
   letter-spacing: 2px;
   font-weight: 700;
 }
-
 .single-service p {
   color: #232323;
 }
-
 #abilities img {
   width: 50px;
 }
-
 /*
 * ----------------------------------------------------------------------------------------
 * 06.portfolio CSS STYLE
@@ -558,7 +559,7 @@ ul.work li.active {
   display: inline-block;
   color: #fff !important;
   font-weight: bold;
-  text-shadow: 4px 4px 4px rgba(87, 88, 87, 0.4));
+  text-shadow: 4px 4px 4px rgba(87, 88, 87, 0.4);
 }
 .work figure.effect-ruby p {
   font-size: 14px;
@@ -1254,7 +1255,6 @@ ul.work li.active {
 /* .mainmenu ul {
   list-style-type: none;
 }
-
 .mainmenu li ul.sub-menu,
 .mainmenu ul li ul.sub-menu li ul.sub-menu {
   background: #000;
@@ -1269,19 +1269,16 @@ ul.work li.active {
   width: 120px;
   z-index: 999;
 }
-
 .mainmenu ul li ul.sub-menu li ul.sub-menu {
   top: 0;
   left: 100%;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
-
 .mainmenu ul li ul.sub-menu li {
   padding: 0;
   width: 100%;
 }
-
 .mainmenu ul li:hover ul.sub-menu {
   top: 100%;
   opacity: 1;
@@ -1289,30 +1286,25 @@ ul.work li.active {
   z-index: 999;
   visibility: visible;
 }
-
 .mainmenu ul.nav > li ul li:hover ul.sub-menu {
   opacity: 1;
   filter: alpha(opacity=100);
   visibility: visible;
 }
-
 .mainmenu ul li ul.sub-menu li a {
   color: #fff !important;
   cursor: pointer;
   display: block;
   padding: 8px 10px 12px 20px;
 }
-
 .mainmenu ul li ul.sub-menu li:last-child a {
   border-bottom: none;
 }
-
 .mainmenu ul li:hover ul.sub-menu li a:hover {
   text-decoration: none;
   background: #333;
   padding: 8px 10px 12px 20px;
 }
-
 /*
 * ----------------------------------------------------------------------------------------
 * 04.ABOUT CSS STYLE
@@ -1357,7 +1349,6 @@ ul.work li.active {
 /* .testimonial-area {
   background: #fff;
 }
-
 .single-testimonial h2 {
   font-size: 12px;
   text-transform: uppercase;
@@ -1367,18 +1358,15 @@ ul.work li.active {
   letter-spacing: 2px;
   font-weight: 700;
 }
-
 .single-testimonial h3 {
   font-size: 12px;
   text-transform: capitalize;
   font-weight: 300;
   margin-top: 0;
 }
-
 .single-testimonial p {
   line-height: 25px;
 }
-
 .owl-theme .owl-controls .owl-page span {
   display: block;
   width: 5px;
@@ -1387,7 +1375,6 @@ ul.work li.active {
   border-radius: 20px;
   background: #000;
 }
-
  */
 
 /* ==============================
@@ -2435,14 +2422,12 @@ ul.blog_pagination li a:hover {
 * PREVIEW CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-/* .preview-body {
+.preview-body {
   background: #fafafa;
 }
-
 .preview-single-image img {
   width: 100%;
 }
-
 .preview-single-image {
   -webkit-transition: 1s;
   transition: 1s;
@@ -2450,14 +2435,12 @@ ul.blog_pagination li a:hover {
           box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.05);
   margin-bottom: 30px;
 }
-
 .preview-single-image:hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
           box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
-
 .preview-single-image h2 {
   font-size: 20px;
   text-align: center;
@@ -2466,36 +2449,257 @@ ul.blog_pagination li a:hover {
   margin: 0;
   padding: 30px 20px;
 }
-
 .preview-header-top-area {
   padding: 50px 0px;
 }
-
 .preview-header-top-area h2 {
   font-size: 80px;
   color: #232323;
   text-transform: capitalize;
   font-weight: 900;
 }
-
 .preview-header-top-area p {
   color: #333;
   font-size: 30px;
   font-weight: 300;
 }
-
 .main h2 {
   color: #000;
 }
-
 .main {
   margin-bottom: 180px;
-} */
+}
+
 
 /* ==============================
+     Portfolio
+     ============================== */
+     .filter li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .filter li a {
+      color: #555;
+      font-size: 0.85em;
+      padding: 10px 10px;
+      letter-spacing: 3px;
+      -webkit-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+      -moz-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+      -o-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+      -ms-transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+      transition: all 0.37s cubic-bezier(0, 0, 0.58, 1);
+    }
+    .filter li a:hover {
+      border-bottom: 1px solid #00b2ca;
+    }
+    .filter li.active a {
+      border-bottom: 1px solid #00b2ca;
+    }
+    .work-item {
+      text-align: center;
+      margin: 15px 0;
+    }
+    .work-item .figure {
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      cursor: pointer;
+    }
+    .work-item .figure img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .work-item .figure .figcaption {
+      color: #111;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .work-item .figure .figcaption::before,
+    .work-item .figure .figcaption::after {
+      pointer-events: none;
+    }
+    .work-item .figure a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .work-item .figure a {
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    .work-item .figure h5,
+    .work-item .figure p {
+      margin: 0;
+    }
+    .work-item .figure h5 {
+      padding-top: 10px;
+    }
+    .work-item .figure p {
+      padding: 5px 0;
+    }
+    .figure.effect-hover img {
+      -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+      -moz-transition: -moz-transform 0.35s, opacity 0.35s;
+      -o-transition: -o-transform 0.35s, opacity 0.35s;
+      -ms-transition: -ms-transform 0.35s, opacity 0.35s;
+      transition: transform 0.35s, opacity 0.35s;
+    }
+    .figure.effect-hover .figcaption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      opacity: 0.5;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      -moz-transition: opacity 0.35s, -moz-transform 0.35s;
+      -o-transition: opacity 0.35s, -o-transform 0.35s;
+      -ms-transition: opacity 0.35s, -ms-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translateY(100%);
+      -moz-transform: translateY(100%);
+      -o-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    .figure.effect-hover .figcaption h5 {
+      font-weight: 400;
+      color: #111;
+    }
+    .figure.effect-hover .figcaption p {
+      color: #555;
+      text-transform: uppercase;
+      font-size: 10px;
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+    .figure.effect-hover:hover .figcaption {
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    .figure.effect-hover:hover img {
+      -webkit-transform: translateY(10px);
+      -moz-transform: translateY(10px);
+      -o-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      transform: translateY(10px);
+      opacity: 0.5;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+      filter: alpha(opacity=50);
+    }
+    .call-to-action h5 {
+      color: #777;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 0.8em;
+    }
+  /*
+   * Portfolio single
+   */
+   .work-detail {
+    color: #777;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .work-detail p {
+    font-size: 13px;
+    padding: 4px 0;
+    margin: 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+  }
+  .work-detail p:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+
+  /* ==============================
+     Footer
+     ============================== */
+     footer.page-footer {
+    background-color: #f5f5f5;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  .copy-right a {
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 0.5em;
+  }
+  .copy-right a:hover {
+    text-decoration: underline;
+  }
+  .copy-right p {
+    color: #777;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  a.scroll-to-top {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0,0,0,0.2);
+    font-size: 48px;
+  }
+    /* ==============================
+     Portfolio page
+     ============================== */
+     .overlay-left,
+     .overlay-right {
+       width: 50%;
+       height: 100%;
+       margin: 0 !important;
+       position: absolute;
+       top: 0;
+     }
+     .overlay-left {
+       left: 0;
+       background: transparent;
+     }
+     .overlay-left div,
+     .overlay-left h1 {
+       color: #777;
+     }
+     .overlay-right {
+       right: 0;
+       background: transparent;
+       color: #fff;
+     }
+     .btn-scroll-alt:before,
+     .btn-scroll-alt:after {
+       border-bottom: 1px solid #777;
+       border-right: 1px solid #fff;
+     }
+    /* ==============================
     Intro page
      ============================== */
-  /* .intro-box .intro-prev {
+  .intro-box .intro-prev {
     margin-bottom: 25px;
   }
   .intro-box .intro-prev a {
@@ -2872,40 +3076,4 @@ ul.blog_pagination li a:hover {
       transform: scale3d(1, 1, 1);
     }
   }
-
-  /* ==============================
-     Footer
-     ============================== */
-     footer.page-footer {
-      background-color: #f5f5f5;
-      position: relative;
-      padding-top: 100px;
-      padding-bottom: 60px;
-    }
-    .copy-right a {
-      color: #777;
-      font-size: 12px;
-      letter-spacing: 0.5em;
-    }
-    .copy-right a:hover {
-      text-decoration: underline;
-    }
-    .copy-right p {
-      color: #777;
-      margin-top: 10px;
-      font-size: 12px;
-      font-weight: 300;
-      letter-spacing: 2px;
-    }
-    a.scroll-to-top {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      color: rgba(0,0,0,0.2);
-      font-size: 48px;
-    } */
 /*# sourceMappingURL=style.css.map */
