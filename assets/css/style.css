@@ -2403,7 +2403,10 @@
   /*
    * About Item boxes
    */
-  .about-item {
+   #about {
+    background:#fff;
+   }
+   .about-item {
     margin: 60px 0 0 0;
     position: relative;
     padding-left: 55px;
@@ -2739,7 +2742,11 @@
     /* ==============================
      Portfolio
      ============================== */
-  .filter li {
+  
+     #team {
+       
+      background:#fff}
+     .filter li {
     display: inline-block;
     margin: 0 10px;
   }
