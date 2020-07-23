@@ -6,7 +6,7 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 
-.animated {
+/* .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -110,11 +110,11 @@ Copyright (c) 2014 Daniel Eden
 .flash {
   -webkit-animation-name: flash;
           animation-name: flash;
-}
+} */
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@-webkit-keyframes pulse {
+/* @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
             transform: scale3d(1, 1, 1);
@@ -394,7 +394,7 @@ Copyright (c) 2014 Daniel Eden
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@-webkit-keyframes wobble {
+/* @-webkit-keyframes wobble {
   0% {
     -webkit-transform: none;
             transform: none;
@@ -2450,7 +2450,7 @@ Copyright (c) 2014 Daniel Eden
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
+/* 
 @-webkit-keyframes rollIn {
   0% {
     opacity: 0;
@@ -2482,11 +2482,11 @@ Copyright (c) 2014 Daniel Eden
 .rollIn {
   -webkit-animation-name: rollIn;
           animation-name: rollIn;
-}
+}  */
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@-webkit-keyframes rollOut {
+/* @-webkit-keyframes rollOut {
   0% {
     opacity: 1;
   }
@@ -3155,4 +3155,4 @@ Copyright (c) 2014 Daniel Eden
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
-}
+} */
