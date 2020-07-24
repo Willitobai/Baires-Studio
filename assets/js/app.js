@@ -339,17 +339,17 @@
   
 	/* Masonry Plagin */
   
-	// init_masonry = function () {
-	//   var blogContainer;
-	//   blogContainer = $('.blog-masonry');
-	//   blogContainer.imagesLoaded(function () {
-	// 	blogContainer.isotope({
-	// 	  itemSelector: '.post-masonry'
-	// 	});
-	//   });
-	// };
+	init_masonry = function () {
+	  var blogContainer;
+	  blogContainer = $('.blog-masonry');
+	  blogContainer.imagesLoaded(function () {
+		blogContainer.isotope({
+		  itemSelector: '.post-masonry'
+		});
+	  });
+	};
   
-	// init_masonry();
+	init_masonry();
   
   
 	/* Google Maps */
