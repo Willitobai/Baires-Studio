@@ -11,6 +11,7 @@ body {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
+    table-column-group: white;
 }
 
 audio, canvas, progress, video {
