@@ -179,7 +179,7 @@
     .bg-dark-80 *,
     .bg-dark-90 *,
     .bg-light-90 * {
-      color: rgb(12, 1, 1);
+      color: rgb(255, 255, 255);
     }
     .bg-dark-10:before,
     .bg-dark-50:before,
@@ -592,7 +592,7 @@
   }
   
   .input-success {
-    border: 1px solid #0393f3;
+    border: 1px transparent;
   }
   
   .input-error {
@@ -707,7 +707,7 @@
       left: 4px;
     }
     .btn-read-more {
-      border-bottom: 1px solid #111;
+      border-bottom: 1px solid #fff;
       -webkit-border-radius: 0;
       border-radius: 0;
       color: #555;
