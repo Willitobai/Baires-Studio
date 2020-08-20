@@ -573,7 +573,7 @@
     background: #232323;
     text-transform: capitalize;
     border-radius: 30px;
-  }
+  } 
   
   .contact-form button.btn:hover {
     background: #0393f3;
@@ -1142,11 +1142,11 @@
         display: inline-block;
         margin: 0;
         padding: 0;
-        -webkit-animation: rotate-letter 15s infinite;
-        -moz-animation: rotate-letter 15s infinite;
-        -o-animation: rotate-letter 15s infinite;
-        -ms-animation: rotate-letter 15s infinite;
-        animation: rotate-letter 15s infinite;
+        -webkit-animation: rotate-letter 5s infinite;
+        -moz-animation: rotate-letter 5s infinite;
+        -o-animation: rotate-letter 5s infinite;
+        -ms-animation: rotate-letter 5s infinite;
+        animation: rotate-letter 5s infinite;
       }
       .nav-logo-wrap .logo:before,
       .nav-logo-wrap .logo:after {

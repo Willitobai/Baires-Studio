@@ -349,7 +349,7 @@
 	  });
 	};
   
-	// init_masonry();
+	init_masonry();
   
   
 	/* Google Maps */
